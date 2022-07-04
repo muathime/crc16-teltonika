@@ -1,12 +1,15 @@
 {
-  "name": "crc16-teltonika",
+  "name": "@muathime/crc16-teltonika",
   "description": "Teltonika CRC16IBM checksum generator package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "contributors": [
     "Antony Munyao <muathimetests@gmail.com>"
   ],
   "license": "MIT",
-  "repository": "muathime/crc16-teltonika",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muathime/crc16-teltonika.git"
+  },
   "files": [
     "LICENSE",
     "HISTORY.md",
@@ -14,5 +17,14 @@
   ],
   "engines": {
     "node": ">= 0.6"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/muathime/crc16-teltonika/issues"
+  },
+  "homepage": "https://github.com/muathime/crc16-teltonika#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antony Munyao"
 }
